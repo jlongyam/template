@@ -1,0 +1,31 @@
+{
+  "name": "template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repository template",
+  "keywords": [
+    "template",
+    "generator",
+    "scaffold",
+    "boilerplate"
+  ],
+  "author": "jlongyam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlongyam/template.git"
+  },
+  "homepage": "https://github.com/jlongyam/template",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ."
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    }
+  },
+  "files": []
+}
