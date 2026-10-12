@@ -1,3 +1,23 @@
 #!/usr/bin/env node
 
-console.log('Todo');
+import { text, select, isCancel } from '@clack/prompts';
+
+const projectName = await text({
+  message: 'What is your project name?',
+  placeholder: 'my-app',
+  validate: (value) => value ? undefined : 'Project name is required'
+});
+
+if (isCancel(projectName)) {
+  console.log('Operation cancelled.');
+  process.exit(0);
+}
+
+const template = await select({
+  message: 'Pick a template:',
+  options: [
+    { value: 'monorepo', label: 'Monorepo' },
+    { value: 'library', label: 'Library' },
+    { value: 'website', label: 'Website' }
+  ]
+});
