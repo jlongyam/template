@@ -1,0 +1,7 @@
+# Configs
+tsconfig.json
+pnpm-workspace.yaml
+
+# Source
+src/
+tests/

@@ -1,2 +1,4 @@
+nodeVersion: "26.7.0"
+saveExact: true
 packages:
   - 'packages/*'

@@ -16,16 +16,11 @@
   },
   "homepage": "https://github.com/jlongyam/template",
   "license": "MIT",
-  "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "node ."
-  },
-  "exports": {
-    ".": {
-      "require": "./index.js"
-    }
-  },
-  "files": []
+    "test": "pnpm test -r",
+    "preview": "pnpm pack --dry-run -r",
+    "publish": "pnpm publish -r"
+  }
 }

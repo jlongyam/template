@@ -1,0 +1,21 @@
+{
+  "name": "@jlbyte/create-repo",
+  "version": "1.0.0",
+  "description": "Create repo template",
+  "keywords": [
+    "template",
+    "repository",
+    "monorepo"
+  ],
+  "license": "MIT",
+  "author": "jlongyam",
+  "bin": {
+    "create-repo": "index.mjs"
+  },
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "files": [
+    "index.mjs"
+  ]
+}
