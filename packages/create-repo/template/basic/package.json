@@ -1,0 +1,32 @@
+{
+  "name": "@jlongyam/<package>",
+  "version": "1.0.0",
+  "description": "Package Repository template",
+  "keywords": [
+    "no",
+    "key",
+    "words"
+  ],
+  "author": "jlongyam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlongyam/<package>.git"
+  },
+  "homepage": "https://github.com/jlongyam/<package>",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    }
+  },
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  }
+}

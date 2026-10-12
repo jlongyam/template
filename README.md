@@ -9,7 +9,7 @@ Template generator
 ## Install
 
 - `npm create @jlbyte/repo`
-	- `default (normal)`
+	- `default (basic)`
 	- `monorepo`
 	- `library`
 		- `default (js)`

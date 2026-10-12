@@ -6,7 +6,6 @@
   "keywords": [
     "template",
     "generator",
-    "scaffold",
     "boilerplate"
   ],
   "author": "jlongyam",
@@ -15,12 +14,5 @@
     "url": "git+https://github.com/jlongyam/template.git"
   },
   "homepage": "https://github.com/jlongyam/template",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "pnpm test -r",
-    "preview": "pnpm pack --dry-run -r",
-    "publish": "pnpm publish -r"
-  }
+  "license": "MIT"
 }
